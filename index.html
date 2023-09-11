@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR code scanner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <p> Enter your text or url</p>
+        <input type="text" placeholder="text or url" id="qrtext">
+        <div id="imgbox">
+       <img src=""  id="qrimage">
+        </div>
+        <button onclick="generateqr()"> Generate QR code</button>
+    </div>
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+<!--
+    problem issues
+    moving box in center using position absolute 
+    // position: absolute;   top: 35%; left: 50%;
+
+    // using classlist property 
+    .error{
+    animation: movement 0.1s linear 10 ;
+     qrtext.classList.add("error");
+}
+ 
+   
+
+-->
+</html>
